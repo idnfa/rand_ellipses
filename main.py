@@ -7,7 +7,7 @@ from PyQt6.QtGui import QPainter, QColor
 from PyQt6.QtWidgets import QWidget, QApplication
 
 
-class MyWidget(QWidget,Ui_circles):
+class MyWidget(QWidget, Ui_circles):
     def __init__(self):
         super().__init__()
         self.btn = None
