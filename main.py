@@ -2,7 +2,7 @@ import sys
 from random import randint
 
 from ui_file import Ui_circles
-from PyQt6.QtCore import Qt, QPointF
+from PyQt6.QtCore import QPointF
 from PyQt6.QtGui import QPainter, QColor
 from PyQt6.QtWidgets import QWidget, QApplication
 
